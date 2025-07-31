@@ -1,0 +1,72 @@
+Title,Reproducible Steps,Attachments,Affected Devices,Severity,Priority,Impact,Network
+Monefy,,,,,,,
+Currency change updates payment icons but not monetary values,"- Open Monefy app
+- Add payment entries using USD currency
+- Navigate to currency settings
+- Change currency from USD to any other currency Euro for Example
+- Return to home screen
+- Observe that currency icons change but values remain unchanged ",Video,"Android versions
+Device models : Samsung a35",High,High,"Users see incorrect monetary values when switching currencies , It mean that Euro=Dollar=EGY and it is not true",- Online
+"App crashes when returning to home page after changing date interval 
+","- Open Monefy app
+- Verify you have payment entries displayed (4 days of payments from 26th to 29th)
+- Access date interval/filter settings
+- Change the date range to a different interval ( from 20th to 31st)
+- Apply the new date filter
+- Navigate back to the home page
+- App crashes upon returning to home page
+",Video,"Android versions
+Device models : Samsung a35",High,High,"Users cannot return to the home page after modifying date filters, making the app unusable and forcing them to restart the application",- Online
+Budget mode notifications and alerts not functioning when enabled in setting and user spend more than it in his payment,"- Open Monefy app
+- Navigate to Settings
+- Enable Budget mode (turn Budget mode ON)
+- Set up budget limits 50000
+- Make payments more than 50000 no see  notifications/alerts
+- Observe that no notifications or alerts appear despite budget mode being enabled
+
+",Video,"Android versions
+Device models : Samsung a35",Medium,Medium,"Users cannot receive budget notifications or alerts when spending exceeds set limits, budget tracking feature doesn't work.",- Online
+Tutorial popup appears in wrong position and persists across page navigation for new users,"- Install Monefy app as a new user OR clear app data to simulate first-time use
+- Launch the app for the first time
+- Observe the tutorial/onboarding popup that appears to explain app features
+- Navigate to different pages/screens within the app
+- Observe that the popup remains visible and doesn't disappear when changing pages",Video,"Android versions
+Device models : Samsung a35",Medium,Medium,New users experience a poor first impression due to misaligned tutorial popups and navigation interference.,- Online
+Incorrect percentage calculations and UI visualization issues in donut chart when adding more than five payments across different categories in any time interval view,"- Open Monefy app
+- Add more than 5 different payments across different categories (ensure each payment is in a separate category)
+- Navigate to any time interval view (week/month/day/custom interval)
+- Access the visual representation/statistics view (donut chart) within the selected time interval
+- Observe the percentage calculations displayed for categories within that time period
+- Compare percentages with actual payment amounts to verify accuracy
+- Check if all categories with payments are represented in the donut chart for the selected interval
+- Verify if the colors match correctly between the legend and chart segments
+- Test across different time intervals (switch between week, month, day views) to confirm the issue persists","Attachment 1
+
+Attachment 2
+","Android versions
+Device models : Samsung a35",High,Medium,"Users receive incorrect financial insights due to wrong percentage calculations and incomplete visual representation regardless of the time interval selected (week, month, day, or custom)",- Online
+Incomplete language translation when changing app language in settings,"- Open Monefy app
+- Navigate to Settings
+- Change the app language from current language to a different language
+- Apply the language change
+- Navigate through different sections of the app (home page, categories, statistics, settings, etc.)
+- Observe that some text elements are translated to the new language
+- Identify text elements that remain in the original language and are not translated",Video,"Android versions
+Device models : Samsung a35",Low,Medium,"Users who change the app language experience inconsistent localization with mixed languages throughout the interface. This creates confusion and poor user experience, particularly for non-native speakers",- Online
+Calculator accepts incomplete expressions ending with operators and returns incorrect results instead of error,"- Open Monefy app
+- Navigate to the calculator feature
+-  Enter a complete mathematical expression (3+3) and verify it works correctly (should equal 6)
+- Enter an incomplete expression ending with an operator (3 +)
+- Press equals or confirm the calculation
+- Observe that the calculator returns a number result instead of showing an error
+- Test with other operators (""6+3+"", ""5-"", ""8*"", ""10/"")
+- Verify that all incomplete expressions ending with operators produce numerical results instead of error messages",Video,"Android versions
+Device models : Samsung a35",Medium,Medium,"Users may unknowingly enter incomplete mathematical expressions and receive incorrect calculation results, leading to wrong payment amounts being recorded",- Online
+"Income and Expense buttons incorrectly display as ""+"" and ""-"" symbols instead of text labels on home page","- Open Monefy app and navigate to the home page
+- Locate the Income and Expense buttons on the home page
+- Verify that buttons should display ""Income"" and ""Expense"" text labels
+- Observe instances where the buttons show ""+"" and ""-"" symbols instead","Attachment 1
+
+Attachment 2
+","Android versions
+Device models : Samsung a35",Low,Medium,Users may experience confusion when the primary action buttons display mathematical symbols instead of clear descriptive labels. This reduces interface clarity and may make the app less intuitive,- Online
